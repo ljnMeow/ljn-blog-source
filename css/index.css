@@ -3840,6 +3840,7 @@ h1.page-title + .tag-cloud-list {
   -o-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
   width: 260px;
   height: 260px;
   z-index: 1111;
@@ -3852,6 +3853,7 @@ h1.page-title + .tag-cloud-list {
   -o-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
 }
 #loading-box .alfa .mov {
   position: absolute;
@@ -3864,21 +3866,25 @@ h1.page-title + .tag-cloud-list {
   -o-animation-name: rod;
   -ms-animation-name: rod;
   animation-name: rod;
+  -webkit-animation-name: rod;
   -webkit-animation-duration: 6s;
   -moz-animation-duration: 6s;
   -o-animation-duration: 6s;
   -ms-animation-duration: 6s;
   animation-duration: 6s;
+  -webkit-animation-duration: 6s;
   -webkit-animation-iteration-count: infinite;
   -moz-animation-iteration-count: infinite;
   -o-animation-iteration-count: infinite;
   -ms-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   -o-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
 }
 #loading-box .alfa .mov .frente {
   position: absolute;
@@ -3893,6 +3899,7 @@ h1.page-title + .tag-cloud-list {
   -o-transform: translateZ(30px);
   -ms-transform: translateZ(30px);
   transform: translateZ(30px);
+  -webkit-transform: translateZ(30px);
 }
 #loading-box .alfa .mov .frente #load-text {
   position: absolute;
@@ -3903,6 +3910,7 @@ h1.page-title + .tag-cloud-list {
   -o-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
   font-size: 16px;
 }
 #loading-box .alfa .mov .tras {
@@ -3923,21 +3931,25 @@ h1.page-title + .tag-cloud-list {
   -o-animation-name: shadow;
   -ms-animation-name: shadow;
   animation-name: shadow;
+  -webkit-animation-name: shadow;
   -webkit-animation-duration: 6s;
   -moz-animation-duration: 6s;
   -o-animation-duration: 6s;
   -ms-animation-duration: 6s;
   animation-duration: 6s;
+  -webkit-animation-duration: 6s;
   -webkit-animation-iteration-count: infinite;
   -moz-animation-iteration-count: infinite;
   -o-animation-iteration-count: infinite;
   -ms-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   -o-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
 }
 #loading-box .alfa .mov .meio {
   position: absolute;
@@ -3952,16 +3964,19 @@ h1.page-title + .tag-cloud-list {
   -o-animation-name: loading;
   -ms-animation-name: loading;
   animation-name: loading;
+  -webkit-animation-name: loading;
   -webkit-animation-duration: 1s;
   -moz-animation-duration: 1s;
   -o-animation-duration: 1s;
   -ms-animation-duration: 1s;
   animation-duration: 1s;
+  -webkit-animation-duration: 1s;
   -webkit-animation-iteration-count: infinite;
   -moz-animation-iteration-count: infinite;
   -o-animation-iteration-count: infinite;
   -ms-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
 }
 #loading-box.loaded {
   z-index: -1000;
@@ -3972,11 +3987,13 @@ h1.page-title + .tag-cloud-list {
   -o-transition: all 1s;
   -ms-transition: all 1s;
   transition: all 1s;
+  -webkit-transition: all 1s;
   -webkit-transform: translate(-100%, 0);
   -moz-transform: translate(-100%, 0);
   -o-transform: translate(-100%, 0);
   -ms-transform: translate(-100%, 0);
   transform: translate(-100%, 0);
+  -webkit-transform: translate(-100%, 0);
 }
 #loading-box.loaded .loading-right-bg {
   -webkit-transition: all 1s;
@@ -3984,11 +4001,13 @@ h1.page-title + .tag-cloud-list {
   -o-transition: all 1s;
   -ms-transition: all 1s;
   transition: all 1s;
+  -webkit-transition: all 1s;
   -webkit-transform: translate(100%, 0);
   -moz-transform: translate(100%, 0);
   -o-transform: translate(100%, 0);
   -ms-transform: translate(100%, 0);
   transform: translate(100%, 0);
+  -webkit-transform: translate(100%, 0);
 }
 #loading-box.loaded .alfa {
   display: none;
@@ -4000,6 +4019,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotateY(-20deg) rotateX(20deg);
     -ms-transform: rotateY(-20deg) rotateX(20deg);
     transform: rotateY(-20deg) rotateX(20deg);
+    -webkit-transform: rotateY(-20deg) rotateX(20deg);
   }
   25% {
     -webkit-transform: rotateY(20deg) rotateX(20deg);
@@ -4007,6 +4027,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotateY(20deg) rotateX(20deg);
     -ms-transform: rotateY(20deg) rotateX(20deg);
     transform: rotateY(20deg) rotateX(20deg);
+    -webkit-transform: rotateY(20deg) rotateX(20deg);
   }
   50% {
     -webkit-transform: rotateY(20deg) rotateX(-20deg);
@@ -4014,6 +4035,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotateY(20deg) rotateX(-20deg);
     -ms-transform: rotateY(20deg) rotateX(-20deg);
     transform: rotateY(20deg) rotateX(-20deg);
+    -webkit-transform: rotateY(20deg) rotateX(-20deg);
   }
   75% {
     -webkit-transform: rotateY(-20deg) rotateX(-20deg);
@@ -4021,6 +4043,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotateY(-20deg) rotateX(-20deg);
     -ms-transform: rotateY(-20deg) rotateX(-20deg);
     transform: rotateY(-20deg) rotateX(-20deg);
+    -webkit-transform: rotateY(-20deg) rotateX(-20deg);
   }
   100% {
     -webkit-transform: rotateY(-20deg) rotateX(20deg);
@@ -4028,6 +4051,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotateY(-20deg) rotateX(20deg);
     -ms-transform: rotateY(-20deg) rotateX(20deg);
     transform: rotateY(-20deg) rotateX(20deg);
+    -webkit-transform: rotateY(-20deg) rotateX(20deg);
   }
 }
 @-webkit-keyframes rod {
@@ -4037,6 +4061,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotateY(-20deg) rotateX(20deg);
     -ms-transform: rotateY(-20deg) rotateX(20deg);
     transform: rotateY(-20deg) rotateX(20deg);
+    -webkit-transform: rotateY(-20deg) rotateX(20deg);
   }
   25% {
     -webkit-transform: rotateY(20deg) rotateX(20deg);
@@ -4044,6 +4069,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotateY(20deg) rotateX(20deg);
     -ms-transform: rotateY(20deg) rotateX(20deg);
     transform: rotateY(20deg) rotateX(20deg);
+    -webkit-transform: rotateY(20deg) rotateX(20deg);
   }
   50% {
     -webkit-transform: rotateY(20deg) rotateX(-20deg);
@@ -4051,6 +4077,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotateY(20deg) rotateX(-20deg);
     -ms-transform: rotateY(20deg) rotateX(-20deg);
     transform: rotateY(20deg) rotateX(-20deg);
+    -webkit-transform: rotateY(20deg) rotateX(-20deg);
   }
   75% {
     -webkit-transform: rotateY(-20deg) rotateX(-20deg);
@@ -4058,6 +4085,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotateY(-20deg) rotateX(-20deg);
     -ms-transform: rotateY(-20deg) rotateX(-20deg);
     transform: rotateY(-20deg) rotateX(-20deg);
+    -webkit-transform: rotateY(-20deg) rotateX(-20deg);
   }
   100% {
     -webkit-transform: rotateY(-20deg) rotateX(20deg);
@@ -4065,6 +4093,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotateY(-20deg) rotateX(20deg);
     -ms-transform: rotateY(-20deg) rotateX(20deg);
     transform: rotateY(-20deg) rotateX(20deg);
+    -webkit-transform: rotateY(-20deg) rotateX(20deg);
   }
 }
 @-o-keyframes rod {
@@ -4074,6 +4103,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotateY(-20deg) rotateX(20deg);
     -ms-transform: rotateY(-20deg) rotateX(20deg);
     transform: rotateY(-20deg) rotateX(20deg);
+    -webkit-transform: rotateY(-20deg) rotateX(20deg);
   }
   25% {
     -webkit-transform: rotateY(20deg) rotateX(20deg);
@@ -4081,6 +4111,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotateY(20deg) rotateX(20deg);
     -ms-transform: rotateY(20deg) rotateX(20deg);
     transform: rotateY(20deg) rotateX(20deg);
+    -webkit-transform: rotateY(20deg) rotateX(20deg);
   }
   50% {
     -webkit-transform: rotateY(20deg) rotateX(-20deg);
@@ -4088,6 +4119,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotateY(20deg) rotateX(-20deg);
     -ms-transform: rotateY(20deg) rotateX(-20deg);
     transform: rotateY(20deg) rotateX(-20deg);
+    -webkit-transform: rotateY(20deg) rotateX(-20deg);
   }
   75% {
     -webkit-transform: rotateY(-20deg) rotateX(-20deg);
@@ -4095,6 +4127,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotateY(-20deg) rotateX(-20deg);
     -ms-transform: rotateY(-20deg) rotateX(-20deg);
     transform: rotateY(-20deg) rotateX(-20deg);
+    -webkit-transform: rotateY(-20deg) rotateX(-20deg);
   }
   100% {
     -webkit-transform: rotateY(-20deg) rotateX(20deg);
@@ -4102,6 +4135,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotateY(-20deg) rotateX(20deg);
     -ms-transform: rotateY(-20deg) rotateX(20deg);
     transform: rotateY(-20deg) rotateX(20deg);
+    -webkit-transform: rotateY(-20deg) rotateX(20deg);
   }
 }
 @keyframes rod {
@@ -4111,6 +4145,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotateY(-20deg) rotateX(20deg);
     -ms-transform: rotateY(-20deg) rotateX(20deg);
     transform: rotateY(-20deg) rotateX(20deg);
+    -webkit-transform: rotateY(-20deg) rotateX(20deg);
   }
   25% {
     -webkit-transform: rotateY(20deg) rotateX(20deg);
@@ -4118,6 +4153,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotateY(20deg) rotateX(20deg);
     -ms-transform: rotateY(20deg) rotateX(20deg);
     transform: rotateY(20deg) rotateX(20deg);
+    -webkit-transform: rotateY(20deg) rotateX(20deg);
   }
   50% {
     -webkit-transform: rotateY(20deg) rotateX(-20deg);
@@ -4125,6 +4161,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotateY(20deg) rotateX(-20deg);
     -ms-transform: rotateY(20deg) rotateX(-20deg);
     transform: rotateY(20deg) rotateX(-20deg);
+    -webkit-transform: rotateY(20deg) rotateX(-20deg);
   }
   75% {
     -webkit-transform: rotateY(-20deg) rotateX(-20deg);
@@ -4132,6 +4169,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotateY(-20deg) rotateX(-20deg);
     -ms-transform: rotateY(-20deg) rotateX(-20deg);
     transform: rotateY(-20deg) rotateX(-20deg);
+    -webkit-transform: rotateY(-20deg) rotateX(-20deg);
   }
   100% {
     -webkit-transform: rotateY(-20deg) rotateX(20deg);
@@ -4139,6 +4177,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotateY(-20deg) rotateX(20deg);
     -ms-transform: rotateY(-20deg) rotateX(20deg);
     transform: rotateY(-20deg) rotateX(20deg);
+    -webkit-transform: rotateY(-20deg) rotateX(20deg);
   }
 }
 @-moz-keyframes shadow {
@@ -4236,6 +4275,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: none;
     -ms-transform: none;
     transform: none;
+    -webkit-transform: none;
   }
   from {
     -webkit-transform: rotate(360deg);
@@ -4243,6 +4283,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
   }
 }
 @-webkit-keyframes loading {
@@ -4252,6 +4293,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: none;
     -ms-transform: none;
     transform: none;
+    -webkit-transform: none;
   }
   from {
     -webkit-transform: rotate(360deg);
@@ -4259,6 +4301,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
   }
 }
 @-o-keyframes loading {
@@ -4268,6 +4311,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: none;
     -ms-transform: none;
     transform: none;
+    -webkit-transform: none;
   }
   from {
     -webkit-transform: rotate(360deg);
@@ -4275,6 +4319,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
   }
 }
 @keyframes loading {
@@ -4284,6 +4329,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: none;
     -ms-transform: none;
     transform: none;
+    -webkit-transform: none;
   }
   from {
     -webkit-transform: rotate(360deg);
@@ -4291,6 +4337,7 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
   }
 }
 #pagination .pagination {
