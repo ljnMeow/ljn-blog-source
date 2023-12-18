@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ljn1998codeing.love/example/index.html</loc>
+    
+    <lastmod>2023-12-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ljn1998codeing.love/posts/33271a6e/</loc>
     
     <lastmod>2023-12-18</lastmod>
@@ -21,15 +30,6 @@
   
   <url>
     <loc>https://ljn1998codeing.love/posts/d87f7ca1/</loc>
-    
-    <lastmod>2023-09-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ljn1998codeing.love/example/index.html</loc>
     
     <lastmod>2023-09-20</lastmod>
     
@@ -128,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://ljn1998codeing.love/msgboard/index.html</loc>
+    <loc>https://ljn1998codeing.love/tags/index.html</loc>
     
     <lastmod>2023-01-25</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://ljn1998codeing.love/tags/index.html</loc>
+    <loc>https://ljn1998codeing.love/msgboard/index.html</loc>
     
     <lastmod>2023-01-25</lastmod>
     
@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://ljn1998codeing.love/categories/index.html</loc>
+    <loc>https://ljn1998codeing.love/about/index.html</loc>
     
     <lastmod>2023-01-25</lastmod>
     
@@ -173,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://ljn1998codeing.love/about/index.html</loc>
+    <loc>https://ljn1998codeing.love/categories/index.html</loc>
     
     <lastmod>2023-01-25</lastmod>
     
@@ -334,14 +334,14 @@
   </url>
   
   <url>
-    <loc>https://ljn1998codeing.love/categories/vue/</loc>
+    <loc>https://ljn1998codeing.love/categories/Typescript/</loc>
     <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://ljn1998codeing.love/categories/Typescript/</loc>
+    <loc>https://ljn1998codeing.love/categories/vue/</loc>
     <lastmod>2023-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
